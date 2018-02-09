@@ -10,7 +10,7 @@ Some 'poke-tests' in pokémon API, using mocha and chai.
 
 1. Get the project's dependecies, go to your project directory **PokemonApiTest/** and type :
 ```
-$ node install
+$ npm install
 ```
 2. To run all tests of directory **test/**  
 ```
