@@ -1,0 +1,21 @@
+{
+  "name": "tests-api-pokemom",
+  "version": "1.0.0",
+  "description": "Pokemon api tests",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --timeout 15000 --reporter mochawesome --reporter-options autoOpen"
+  },
+  "author": "Leonardo Menezes",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "chai-json-schema": "^1.5.0",
+    "mocha": "^5.0.0",
+    "mochawesome": "^3.0.2"
+  }
+}
