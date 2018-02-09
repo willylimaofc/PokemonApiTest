@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --timeout 15000 --reporter mochawesome --reporter-options autoOpen"
+    "all-tests": "mocha --opts ./mocha.opts",
+    "gets-tests": "mocha --opts ./mocha.opts test/pokemon-get-tests.js",
+    "schema-test": "mocha --opts ./mocha.opts test/pokemon-schema-test.js"
   },
   "author": "Leonardo Menezes",
   "license": "ISC",

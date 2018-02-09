@@ -1,0 +1,3 @@
+--timeout 12000
+--reporter mochawesome
+--reporter-options autoOpen
